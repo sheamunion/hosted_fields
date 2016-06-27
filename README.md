@@ -4,7 +4,7 @@ A simple Rails app integrated with the Braintree v.zero API.
 
 ## Client-side functionality:
 
-- requests a client token from server——Braintree::ClientToken.generate
+- requests a client token from server—Braintree::ClientToken.generate
 - makes a braintree.setup() call to configure Hosted Fields
 - presents a payment form that uses Hosted Fields
 - submits a payment method nonce to server
@@ -12,5 +12,5 @@ A simple Rails app integrated with the Braintree v.zero API.
 
 ## Server-side functionality:
 
-- uses payment method nonce to verify the payment method and store it in vault——Braintree::PaymentMethod.create()
-- creates a transaction using this stored payment method——Braintree::Transaction.sale()
+- uses payment method nonce to verify the payment method and store it in vault—Braintree::PaymentMethod.create()
+- creates a transaction using this stored payment method—Braintree::Transaction.sale()
