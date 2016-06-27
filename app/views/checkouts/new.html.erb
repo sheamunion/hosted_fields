@@ -1,0 +1,41 @@
+<%= form_tag("/checkouts", id: "my-sample-form", method: "post") do %>
+  <%#= label_tag(:first_name, "First Name") %>
+  <%#= text_field_tag(:first_name) %>
+
+  <%#= label_tag(:last_name, "Last Name") %>
+  <%#= text_field_tag(:last_name) %>
+
+  <label class="cardinfo-label" for="card-number">Card Number</label>
+  <div class="input-wrapper" id="card-number"></div>
+
+  <label class="cardinfo-label" for="cvv">CVV</label>
+  <div class="input-wrapper" id="cvv"></div>
+
+  <label class="cardinfo-label" for="expiration-date">Expiration Date</label>
+  <div class="input-wrapper" id="expiration-date"></div>
+
+  <label for="amount">Amount</label>
+	<br>
+  <input id="amount" name="amount" type="number" min="1" placeholder="Amount" value="10">
+  <br>
+
+  <input id="button-pay" type="submit" value="Pay" />
+<% end %>
+
+<script src="https://js.braintreegateway.com/js/braintree-2.25.0.min.js"></script>
+<script>
+  braintree.setup("<%= @client_token %>", "custom", {
+    id: "my-sample-form",
+    hostedFields: {
+      number: {
+        selector: "#card-number"
+      },
+      cvv: {
+        selector: "#cvv"
+      },
+      expirationDate: {
+        selector: "#expiration-date"
+      }
+    }
+  });
+</script>
