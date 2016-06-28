@@ -2,6 +2,12 @@
 
 A simple Rails app integrated with the Braintree v.zero API.
 
+## Starting Up
+
+- bundle
+- create a file ".env" and add Braintree API information
+- rails s
+
 ## Client-side functionality:
 
 - requests a client token from server—Braintree::ClientToken.generate
