@@ -7,13 +7,9 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-	<nav>
-		<%= link_to "Create account", new_customer_path %>
-		<%= link_to "Checkout", new_checkout_path %>
-	</nav>
-
-
-<%= yield %>
+	<div class="container-fluid">
+		<%= yield %>
+	</div>
 
 </body>
 </html>
