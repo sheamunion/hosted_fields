@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
 
-  root 'customers#new'
-  resources :customers, only: [:new, :show, :create]
+  root 'checkouts#new'
   resources :checkouts, only: [:new, :show, :create]
 
   # The priority is based upon order of creation: first created -> highest priority.
