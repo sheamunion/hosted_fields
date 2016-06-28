@@ -1,4 +1,4 @@
-# hosted_fields
+# Hosted Fields exploration
 
 A simple Rails app integrated with the Braintree v.zero API.
 
