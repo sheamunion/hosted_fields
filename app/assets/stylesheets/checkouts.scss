@@ -1,9 +1,21 @@
-.input-wrapper {
-  border-radius: 2px;
-  background: rgba(255, 255, 255, 0.86);
-  height: 2.5em;
-  border: 1px solid #eee;
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.06);
-  padding: 5px 10px;
-  margin-bottom: 1em;
+$blue: #5db6e8;
+$darkBlue: #282c37;
+$red: #E53A40;
+$green: #8CD790;
+
+
+.braintree-hosted-fields-focused {
+  border-color: $darkBlue;
+}
+
+.braintree-hosted-fields-invalid {
+  border-color: $red;
+}
+
+.braintree-hosted-fields-valid {
+  border-color: $green;
+}
+
+.container-fluid {
+	padding-top: 3em;
 }
