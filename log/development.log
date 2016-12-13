@@ -15334,3 +15334,18 @@ Started GET "/checkouts/new" for ::1 at 2016-06-28 15:57:53 -0500
 Processing by CheckoutsController#new as HTML
   Rendered checkouts/new.html.erb within layouts/application (0.8ms)
 Completed 200 OK in 521ms (Views: 60.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-13 08:52:54 -0600
+Processing by CheckoutsController#new as HTML
+  Rendered checkouts/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 4468ms (Views: 3350.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-13 08:52:58 -0600
+Processing by CheckoutsController#new as HTML
+  Rendered checkouts/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 345ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7b4abe100f144ab5815f3f159c152d9027a3337900a5303675de1561ac577ecf.css?body=1" for ::1 at 2016-12-13 08:52:59 -0600
