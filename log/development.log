@@ -15662,3 +15662,77 @@ Started GET "/" for ::1 at 2016-12-13 09:18:22 -0600
 Processing by CheckoutsController#new as HTML
   Rendered checkouts/new.html.erb within layouts/application (11.0ms)
 Completed 200 OK in 1242ms (Views: 347.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-13 09:26:37 -0600
+Processing by CheckoutsController#new as HTML
+  Rendered checkouts/new.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 1482ms (Views: 359.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-12-13 09:26:38 -0600
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 127.0.0.1 at 2016-12-13 09:26:38 -0600
+
+
+Started GET "/assets/application.self-7b4abe100f144ab5815f3f159c152d9027a3337900a5303675de1561ac577ecf.css?body=1" for 127.0.0.1 at 2016-12-13 09:26:38 -0600
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 127.0.0.1 at 2016-12-13 09:26:38 -0600
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 127.0.0.1 at 2016-12-13 09:26:38 -0600
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 127.0.0.1 at 2016-12-13 09:26:38 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 127.0.0.1 at 2016-12-13 09:26:38 -0600
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 127.0.0.1 at 2016-12-13 09:26:39 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-12-13 09:26:39 -0600
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-12-13 09:26:39 -0600
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-12-13 09:26:39 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-12-13 09:26:39 -0600
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 127.0.0.1 at 2016-12-13 09:26:39 -0600
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-12-13 09:26:39 -0600
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-12-13 09:26:39 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-12-13 09:26:39 -0600
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 127.0.0.1 at 2016-12-13 09:26:39 -0600
+
+
+Started POST "/checkouts" for 127.0.0.1 at 2016-12-13 09:26:49 -0600
+Processing by CheckoutsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XsTBqifpC9UIwXMXfSjZgcNz1TT9loyaw3fx14kBVKarThif0R8ogJqK/gQ7kN7+bQIMLbI4SnvMFZlEvaDKSg==", "payment_method_nonce"=>"ac637fc3-f765-0d40-1733-0ec78d6ae31b"}
+Redirected to http://localhost:5000/checkouts/7374fn5j
+Completed 302 Found in 2074ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/checkouts/7374fn5j" for 127.0.0.1 at 2016-12-13 09:26:51 -0600
+Processing by CheckoutsController#show as HTML
+  Parameters: {"id"=>"7374fn5j"}
+  Rendered checkouts/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 597ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/success-62e3f43a80c23e57acf38cf500331d38b6f612b0f8029dccca1a71d73ebd369c.svg" for 127.0.0.1 at 2016-12-13 09:26:52 -0600
