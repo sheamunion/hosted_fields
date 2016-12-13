@@ -3,8 +3,12 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
+# Heroku likes PG
 gem 'pg'
+# Add Puma so the Procfile can run a webserver
 gem 'puma'
+# Use this for asset serving and logging for Heroku: https://devcenter.heroku.com/articles/getting-started-with-rails5#heroku-gems
+gem 'rails_12factor'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
