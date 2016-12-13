@@ -1,4 +1,4 @@
-# Dotenv.load
+Dotenv.load
 
 Braintree::Configuration.environment = :sandbox
 # Braintree::Configuration.environment = ENV['BT_ENVIRONMENT']
