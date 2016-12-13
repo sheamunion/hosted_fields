@@ -2,6 +2,10 @@
 
 A simple Rails app integrated with the Braintree v.zero API using [Hosted Fields v2][hfv2].
 
+## Demo
+
+See it [in action on Heroku][herokuapp].
+
 ## Starting Up
 
 - `bundle`
@@ -23,6 +27,7 @@ A simple Rails app integrated with the Braintree v.zero API using [Hosted Fields
 - uses payment method nonce to verify the payment method and store it in vault: [`Braintree::PaymentMethod.create()`][pmcreate]
 - creates a transaction using this stored payment method: [`Braintree::Transaction.sale()`][sale]
 
+[herokuapp]: https://hosted-fields-v2.herokuapp.com/
 [hfv2]: https://developers.braintreepayments.com/guides/hosted-fields/overview/javascript/v2
 [createsandbox]: https://www.braintreepayments.com/sandbox
 [btapicreds]: https://articles.braintreepayments.com/control-panel/important-gateway-credentials#api-credentials
